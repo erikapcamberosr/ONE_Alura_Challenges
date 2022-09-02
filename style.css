@@ -1,0 +1,146 @@
+/***********************    HEADER  ***********************/
+header{
+    background: #ADD8E6;
+    padding: 30px 0;
+    font-family: 'Montserrat',
+        sans-serif;
+    
+}
+
+.caja_header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 60px;
+}
+
+.logo{
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;    
+}
+
+.titulo {
+    color: #0A3871;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 20px;
+}
+
+/***********************    MAIN  ***********************/
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ADD8E6;
+}
+
+.input-texto{
+    background: #ADD8E6;
+    border: none;
+    color: #0A3871;
+    font-size: x-large;
+}
+
+.informacion{
+    color: #8B0000;
+    font-weight: bold;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+button {
+    width: 228px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.encriptar{
+    position: relative;
+    background: #0A3871;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.desencriptar{
+    position: relative;
+    background: #ADD8E6;
+    margin-left: 30px;
+    cursor:pointer;
+}
+
+.mostrar_mensaje{
+    align-items: center;
+    text-align: center;
+    background: #F5F5F5;
+    width: 300px;
+    height: 400px;
+    margin-left: 30px;
+    border-radius: 15px;
+}
+
+.mensaje{
+    background-image: url(imagenes/Muñeco.png);
+    background-color: transparent;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #F5F5F5;
+    padding: 1.25rem;
+    margin-top: 20px;
+    /*ransition: border-color .2s ease;  */
+
+}
+
+.txt_mensajeNoEncontrado{
+    font-weight: bold;
+    font-size: large;
+}
+
+.txt_ingresaMensaje{
+    font-style: italic;
+    
+}
+
+.copiar{
+    position: relative;
+    background: #F5F5F5;
+    color: #0A3871;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/***********************    FOOTER ***********************/
+footer{
+    text-align: center;
+    background: #ADD8E6;
+    padding: 20px;
+}
+
+.caja_footer{
+    padding: 40px 0;
+}
+
+.img_desarrollador {
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 5px;
+    width: 50px;    
+}
+
+.contacto_desarrollador {
+    color: #0A3871;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
